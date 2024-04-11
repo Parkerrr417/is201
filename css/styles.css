@@ -504,6 +504,15 @@ progress {
   }
 }
 
+.circle-image{
+border-radius: 50%; /* Make the image circular */
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
@@ -8037,7 +8046,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: blue !important;
+  color: rgb(51, 162, 158) !important;
 }
 
 .text-secondary {
@@ -10937,7 +10946,11 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #A23355;
+}
+
+.goodcolor{
+  color: #A23355;
 }
 
 .dev-icons {

@@ -1,0 +1,67 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://www.digitaltrends.com/wp-content/uploads/2018/05/porsche-2018-911-gt3-front-right-low.jpg?fit=1500%2C1000&p=1');
+    background-size: 100%;
+}
+
+.main{
+    position: absolute;
+    padding: 5px;
+}
+
+.stay{
+    position: fixed;
+}
+
+.header{
+    width: 100%;
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.footer{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    color: rgb(174, 174, 174);
+    text-align: center;
+    position: fixed;
+    bottom: 4px;
+    border: none;
+}
+
+.body{
+    top: 60px;
+    bottom: 33px;
+    width: 100%;
+    left: 20px;
+    font-size: large;
+    overflow-y: scroll;
+}
+
+.video-container{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 80px;
+    margin-right: 12px;
+}
+
+
+.tableau-container{
+    position: fixed;
+    top: 0;
+    margin-top: 600px;
+}
